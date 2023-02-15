@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+deactivate > /dev/null 2>&1 || true 
+rm -rf .venv
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+python -m pip install --upgrade pip
+pip freeze > requirements.txt
+
+echo "Please next run 'source .venv/bin/activate'"
