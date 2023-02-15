@@ -18,7 +18,7 @@ If you have installed a new dependency for example:
 pip install 'fastapi[all]' 
 ```
 
-<sub> :warning: **Please save the dependencies** </sub> by running the following before committing to GitHub:
+<sub> :warning: **Please save the dependencies** by running the following before committing to GitHub.</sub>
 
 ```bash
 bin/save-dependencies
